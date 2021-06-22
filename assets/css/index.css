@@ -1,0 +1,28 @@
+.logoagri img{
+    width: 200px;
+    margin-top: 40px;
+}
+.btn{
+    width: 350px;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.btn a{
+    text-transform: uppercase;
+    background-color: var(--primario);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .3s;
+    font-size: .9rem;
+    color: #fff;
+}
+.btn a:nth-child(2){
+    background-color: transparent;
+    border: 2px solid var(--primario);
+    color: #000;
+}
+.btn a:hover{
+    letter-spacing: 1px;
+    transition: .3s;
+}

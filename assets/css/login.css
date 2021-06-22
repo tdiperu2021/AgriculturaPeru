@@ -1,0 +1,105 @@
+.formulario{
+    width: 290px;
+}
+.formulario form{
+    width: 100%;
+}
+.formulario form .redes{
+    display: grid;
+}
+.formulario form .redes button{
+    border: none;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.formulario form .redes button:nth-child(1){
+    background-color: #1773EA;
+}
+.formulario form .redes button:nth-child(2){
+    background-color: #E44133;
+}
+.formulario form div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.formulario form div span{
+    font-size: 20px;
+    margin-right: 4px;
+}
+.formulario form div .input{
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.formulario form div .button{
+    cursor: pointer;
+    width: 260px !important;
+    background-color: #fff;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+}
+.formulario form div .icon-eye{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 260px;
+    font-size: 1rem;
+}
+#eye{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 260px;
+    font-size: 1rem;
+}
+#eyeb{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 260px;
+    font-size: 1rem;
+}
+.formulario form h3{
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    display: grid;
+}
+#file{
+    display: none;
+}
+.formulario form h3 a{
+    color: var(--primario);
+    font-weight: bold;
+}
+.formulario form input[type=submit]{
+    text-transform: uppercase;
+    background-color: var(--primario);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    transition: .3s;
+    font-size: .9rem;
+    color: #fff;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.formulario form input[type=submit]:hover{
+    letter-spacing: 1px;
+    transition: .3s;
+}

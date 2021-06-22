@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+:root{
+    --primario:#2ecc71;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.contenedor{
+    width: 95%;
+    max-width: 1500px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clasic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #adadad;
+}
+.menu .contenedor .seccion-a{
+    width: 240px;
+}
+.menu .contenedor .seccion-a a{
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+.menu .contenedor .seccion-a a:hover span{
+    color:var(--primario);
+    transition: .3s;
+}
+.menu .contenedor .seccion-a a h1 span{
+    color: #ff0000;
+    transition: .3s;
+}
+.menu .contenedor .seccion-a a img{
+    width: 50px;
+}
+.menu .contenedor .seccion-b{
+    width: calc(100% - 240px);
+    justify-content: flex-end;
+}
+.menu .contenedor .seccion-b img{
+    width: 40px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.special{
+    margin-bottom: 30px;
+}
+.subtitle{
+    text-align: center;
+    font-weight: 300;
+}
+.text-social{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.social-net{
+    margin-top: 20px;
+    width: 250px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.social-net span{
+    background-color: var(--primario);
+    border-radius: 50%;
+    padding: 5px;
+    transition: .3s;
+}
+.social-net span:hover{
+    transform: translateY(-5px);
+    transition: .3s;
+}
+.social-net span a{
+    color: #fff;
+    font-size: 1rem;
+}
+footer h1{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
